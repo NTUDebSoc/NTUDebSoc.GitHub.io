@@ -73,6 +73,8 @@ p {
 
 .navbar {
     padding: 15px;
+    background: transparent;
+    border: none;
     -webkit-transition: background .8s ease-out, padding .8s ease-out;
     -moz-transition: background .8s ease-out, padding .8s ease-out;
     transition: background .8s ease-out, padding .8s ease-out;
@@ -82,6 +84,7 @@ p {
 /* CLASS FOR REMOVING PADDING IN NAVBAR*/
 
 .navbar-pad-original {
+    background: #000000;
     padding: 0px;
 }
 
@@ -270,13 +273,6 @@ small {
     border: 1px solid #e1e1e1;
 }
 
-.add {
-    font-size: 20px;
-    font-weight: 800;
-    padding: 30px;
-    text-align: center;
-}
-
 #contact-sec {
     padding-top: 0px;
 }
@@ -293,6 +289,68 @@ small {
     text-transform: uppercase;
     color: #fff;
 }
+
 .aboutus-sec {
     padding-bottom: 50px;
+}
+
+.counter {
+    height: 220px;
+    text-align: center;
+}
+
+.counter h1 {
+    color: #000000;
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+#countdown {
+    color: #000000;
+    margin-top: 70px;
+}
+
+#countdown span {
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 45px 20px 45px 20px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+#carousel-example {
+    margin-top: -50px;
+}
+
+.aboutproams-sec {
+    background: #eeeeee;
+    -moz-box-shadow: 5px 5px 5px black;
+    -webkit-box-shadow: 5px 5px 5px black;
+    box-shadow: 3px 3px 10px black;
+    padding: 30px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#home-title {
+    text-align: center;
+    color: white;
+    background: #000000;
+    padding: 200px 0px 150px 0px;
+    margin-top: -50px;
+}
+
+#home-title p {
+    font-size: 80px;
+    padding-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
 }
