@@ -331,7 +331,7 @@ small {
 }
 
 .aboutproams-sec {
-    background: #eeeeee;
+    background: #ededed;
     -moz-box-shadow: 5px 5px 5px black;
     -webkit-box-shadow: 5px 5px 5px black;
     box-shadow: 3px 3px 10px black;
@@ -353,4 +353,16 @@ small {
     font-size: 80px;
     padding-bottom: 50px;
     font-family: 'Raleway', sans-serif;
+}
+
+#sponsors .img-responsive {
+    margin: 0 auto;
+}
+
+#coming-soon {
+    padding-bottom: 50px;
+}
+
+#coming-soon h1 {
+    margin-bottom: 95px;
 }

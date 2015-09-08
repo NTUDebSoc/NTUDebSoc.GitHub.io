@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>NTU DebSoc | Home</title>
+    <title>NTU DebSoc | Genesis</title>
 
     <!-- BOOTSTRAP CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -17,6 +17,7 @@
     <link href="assets/css/style.css" rel="stylesheet" />
     <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css' />
 </head>
 
 <body>
@@ -53,85 +54,44 @@
     </div>
     <!--NAVBAR END-->
 
-    <!--JUMBOTRON START-->
-    <section>
-        <div id="home-title">
-            <p>NTU DEBATING SOCIETY</p>
-            <i class="fa fa-legal fa-4x"></i>
-        </div>
-    </section>
-    <!--JUMBOTRON END-->
+    <section id="home" class="head-main-img">
 
-    <!--COMING SOON START-->
-    <section id="coming-soon">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8">
-                    <h1>Coming Soon</h1>
-                    <h3>NTU Pro Ams 2015 - 26th & 27th September</h3>
-                    <div class="counter">
-                        <div id="countdown"></div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <a class="twitter-timeline" href="https://twitter.com/ntumun" data-widget-id="641244155327283201">Tweets by @ntumun</a>
-                    <script>
-                        ! function (d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0],
-                                p = /^http:/.test(d.location) ? 'http' : 'https';
-                            if (!d.getElementById(id)) {
-                                js = d.createElement(s);
-                                js.id = id;
-                                js.src = p + "://platform.twitter.com/widgets.js";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }
-                        }(document, "script", "twitter-wjs");
-                    </script>
+            <div class="row text-center pad-row">
+                <div class="col-md-12">
+                    <h1>  GENESIS  </h1>
                 </div>
             </div>
         </div>
+
     </section>
-    <!--COMING SOON END-->
+    <!--/.HEADING END-->
 
-    <!--CAROUSEL START-->
-    <section id="home" class="text-center">
-        <div id="carousel-example" class="carousel slide" data-ride="carousel" data-interval="10000">
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example" data-slide-to="1"></li>
-                <li data-target="#carousel-example" data-slide-to="2"></li>
-                <li data-target="#carousel-example" data-slide-to="3"></li>
-            </ol>
+    <section>
+        <div class="row text-center">
+            <div class="col-md-10 col-md-offset-1 aboutproams-sec">
+                <i class="fa fa-info-circle fa-5x"></i>
+                <p>The rapid advance of computer technology in the late 20th century had a direct impact on almost every aspect of human life. Its progress is encapsulated by Moore's law, which roughly states that the amount of computer power available at a given price doubles every 18 months—or, to put it another way, the cost of a given amount of computing power falls by half every 18 months. As computers have become smaller and cheaper they have sprouted in homes and offices across the world, permeated everything from cars to office equipment to household appliances, and given rise to the Internet and mobile phones.</p>
 
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="assets/img/1.jpg" alt="" />
-                    <div class="carousel-caption">
-                        <h4 class="back-light">Akhil Batra delivering his speech at NTU DCs 2015.</h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="assets/img/2.jpg" alt="" />
-                    <div class="carousel-caption ">
-                        <h4 class="back-light">A debate team discusses their points at NTU DCs 2015.</h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="assets/img/3.jpg" alt="" />
-                    <div class="carousel-caption ">
-                        <h4 class="back-light">The Debate Society Main Committee at NTU Pro-Ams 2014.</h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="assets/img/4.jpg" alt="" />
-                    <div class="carousel-caption ">
-                        <h4 class="back-light">Trophies await the champions at NTU DCs 2015.</h4>
-                    </div>
-                </div>
+                <p>However, as it is said with great power comes responsibility and every new advancement, or rather its “Genesis” yields both benefits and risks. This brings together members of the NTU Debating Society as well as the Computer Society to discuss and debate various upcoming technologies through a variety of brain storming events such as JAM (Just a Minute), Block and Tackle, Flip the Coin and Quiz Up.</p>
             </div>
         </div>
     </section>
-    <!--CAROUSEL END-->
+
+    <section class="note-sec">
+
+        <div class="container">
+            <div class="row text-center pad-row">
+                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 ">
+                    <i class="fa fa-quote-left fa-3x"></i>
+                    <p>For good ideas and true innovation, you need human interaction, conflict, argument, debate.</p>
+                    <p><i>- Margaret Heffernan</i></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--/.NOTE END-->
 
     <!--SPONSORS START-->
     <section id="sponsors">
@@ -181,37 +141,6 @@
     <script src="assets/plugins/bootstrap.js"></script>
     <!-- CUSTOM SCRIPTS  -->
     <script src="assets/js/custom.js"></script>
-
-    <script>
-        // set the date we're counting down to
-        var target_date = new Date('Sept, 26, 2015').getTime();
-
-        // variables for time units
-        var days, hours, minutes, seconds;
-
-        // get tag element
-        var countdown = document.getElementById('countdown');
-
-        // update the tag with id "countdown" every 1 second
-        setInterval(function () {
-            // find the amount of "seconds" between now and target
-            var current_date = new Date().getTime();
-            var seconds_left = (target_date - current_date) / 1000;
-
-            // do some time calculations
-            days = parseInt(seconds_left / 86400);
-            seconds_left = seconds_left % 86400;
-
-            hours = parseInt(seconds_left / 3600);
-            seconds_left = seconds_left % 3600;
-
-            minutes = parseInt(seconds_left / 60);
-            seconds = parseInt(seconds_left % 60);
-
-            // format countdown string + set tag value
-            countdown.innerHTML = '<span class="days">' + days + ' <b>Days</b></span> <span class="hours">' + hours + ' <b>Hours</b>       </span> <span class="minutes">' + minutes + ' <b>Mins</b></span> <span class="seconds">' + seconds + ' <b>Secs</b></span>';
-        }, 1000);
-    </script>
 </body>
 
 </html>
