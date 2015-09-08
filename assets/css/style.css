@@ -295,7 +295,7 @@ small {
 }
 
 .counter {
-    height: 220px;
+    height: 320px;
     text-align: center;
 }
 
@@ -312,7 +312,7 @@ small {
 
 #countdown {
     color: #000000;
-    margin-top: 70px;
+    margin: 70px 0px 70px 0px;
 }
 
 #countdown span {
@@ -365,4 +365,8 @@ small {
 
 #coming-soon h1 {
     margin-bottom: 95px;
+}
+
+#proams-reg h3 {
+    font-size: 22px;
 }
