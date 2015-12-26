@@ -341,6 +341,22 @@ small {
     font-size: 18px;
 }
 
+.adj-img {
+    margin-top: -30px;
+    margin-bottom: 60px;
+}
+
+.adj-img h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.adj-img p {
+    text-align: center;
+    font-size: 18px;
+}
+
 #home-title {
     text-align: center;
     color: white;
