@@ -49,7 +49,7 @@ p {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #FFF;
+    color: #ecf0f1;
 }
 
 .navbar-brand {
@@ -58,7 +58,7 @@ p {
 }
 
 .navbar-inverse .navbar-brand {
-    color: #FFF;
+    color: #ecf0f1;
 }
 
 .navbar-brand img {
@@ -66,7 +66,7 @@ p {
 }
 
 .navbar-pad-original {
-    background: #000000;
+    background: #2c3e50;
     padding: 0px;
 }
 
@@ -93,7 +93,7 @@ p {
     display: block;
     height: auto;
     min-height: 300px;
-    color: #fff;
+    color: #ecf0f1;
 }
 
 .note-sec p {
@@ -115,7 +115,7 @@ p {
     display: block;
     height: auto;
     min-height: 300px;
-    color: #fff;
+    color: #ecf0f1;
 }
 
 .head-main-img h1 {
@@ -141,13 +141,13 @@ p {
 /* FOOTER STYLE*/
 
 #footer-sec {
-    background-color: #000;
-    color: #808080;
+    background-color: #2c3e50;
+    color: #ecf0f1;
 }
 
 #footer-sec h4 {
     text-transform: uppercase;
-    color: #fff;
+    color: #ecf0f1;
 }
 
 .aboutus-sec {
@@ -160,7 +160,7 @@ p {
 }
 
 .counter h1 {
-    color: #000000;
+    color: #2c3e50;
     font-size: 28px;
     font-style: normal;
     font-variant: normal;
@@ -171,7 +171,7 @@ p {
 }
 
 #countdown {
-    color: #000000;
+    color: #2c3e50;
     margin: 70px 0px 70px 0px;
 }
 
@@ -179,7 +179,7 @@ p {
     border: 1px solid black;
     border-radius: 100%;
     padding: 45px 20px 45px 20px;
-    color: #000000;
+    color: #2c3e50;
     font-size: 24px;
     font-weight: normal;
     margin: 0px 20px 0px 20px;
@@ -219,8 +219,8 @@ p {
 
 #home-title {
     text-align: center;
-    color: white;
-    background: black;
+    color: #ecf0f1;
+    background: #2c3e50;
     padding: 200px 0px 150px 0px;
     margin-top: -50px;
 }
